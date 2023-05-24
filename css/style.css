@@ -7,7 +7,8 @@
     margin: 0 auto;
 }
 .row{
-    margin: 0, 20px;
+    margin: 0 20px;
+    position: relative;
 }
 
 /* header */
@@ -15,7 +16,9 @@
     font-weight: 700;
     font-size: 30px;
     color: #393939;
-    line-height: 40px;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
 }
 
 #header .menu{
@@ -31,4 +34,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 10px;
 }
