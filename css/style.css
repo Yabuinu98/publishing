@@ -23,7 +23,7 @@
     width: 40px;
     height: 40px;
     right: 0;
-    background-color: black;
+    background: linear-gradient(180deg, #040404 0%, rgba(150, 146, 146, 0) 100%);
     color: white;
     font-size: 20px;
     font-weight: 700;
