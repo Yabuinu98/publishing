@@ -26,9 +26,22 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.css" />
 
+    <!-- script 구동파일 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="/js/slick.min.js"></script>
+
     <title>퍼블테스트</title>
   </head>
   <body>
+    <!-- 상단메뉴 -->
     <header id="header">
       <div class="container">
         <div class="row">
@@ -37,5 +50,61 @@
         </div>
       </div>
     </header>
+    <!-- //상단메뉴 -->
+
+    <!-- 중단메뉴 -->
+    <main>
+      <section class="music">
+        <!-- daily 파트 -->
+        <article class="daily">
+          <div class="container">
+            <div class="row">
+              <h2>Daily Recommened</h2>
+
+              <div class="da_music">
+                <div class="d_img">
+                  <picture>
+                    <img src="/img/daily_img01.png" alt="스즈메" />
+                  </picture>
+                </div>
+
+                <div class="d_img">
+                  <picture>
+                    <img src="/img/daily_img02.png" alt="날씨의아이" />
+                  </picture>
+                </div>
+
+                <div class="d_img">
+                  <picture>
+                    <img src="/img/daily_img03.png" alt="너의이름은" />
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- //daily 파트 -->
+
+        <!-- lastest 파트 -->
+        <article class="latest"></article>
+        <!-- //lastest 파트 -->
+
+        <!-- artist 파트 -->
+        <article class="artist"></article>
+        <!-- //artist 파트 -->
+      </section>
+    </main>
+    <!-- //중단메뉴 -->
+
+    <!-- script 선언 -->
+    <script>
+      // slick slider
+      $(".da_music").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+      });
+    </script>
   </body>
 </html>
