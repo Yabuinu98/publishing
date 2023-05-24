@@ -86,7 +86,72 @@
         <!-- //daily 파트 -->
 
         <!-- lastest 파트 -->
-        <article class="latest"></article>
+        <article class="latest">
+          <div class="container">
+            <div class="row">
+              <h2>Latest Album</h2>
+              <div class="al_music">
+                <div class="al_img">
+                  <picture>
+                    <img src="/img/latest_img01.jpg" alt="kale woker1" />
+                  </picture>
+                <div class="al_title">
+                  <span class="al_tit">노래제목</span>
+                  <p class="al_desc">앨범 설명글</p>
+                </div>
+              </div>
+
+                <div class="al_img">
+                  <picture>
+                    <img src="/img/latest_img02.jpg" alt="kale woker2" />
+                  </picture>
+                  <div class="al_title">
+                    <span class="al_tit">노래제목</span>
+                    <p class="al_desc">앨범 설명글</p>
+                  </div>
+                </div>
+
+                <div class="al_img">
+                  <picture>
+                    <img src="/img/latest_img03.jpg" alt="ondirection1" />
+                  </picture>
+                  <div class="al_title">
+                    <span class="al_tit">노래제목</span>
+                    <p class="al_desc">앨범 설명글</p>
+                  </div>
+                </div>
+
+                <div class="al_img">
+                  <picture>
+                    <img src="/img/latest_img04.jpg" alt="ondirection2" />
+                  </picture>
+                  <div class="al_title">
+                    <span class="al_tit">노래제목</span>
+                    <p class="al_desc">앨범 설명글</p>
+                  </div>
+                </div>
+
+                <div class="al_img">
+                  <picture>
+                    <img src="/img/latest_img05.jpg" alt="ondirection3" />
+                  </picture>
+                  <div class="al_title">
+                    <span class="al_tit">노래제목</span>
+                    <p class="al_desc">앨범 설명글</p>
+                  </div>
+                </div>
+
+                <div class="al_img">
+                  <picture>
+                    <img src="/img/latest_img06.jpg" alt="ondirection4" />
+                  </picture>
+                  <div class="al_title">
+                    <span class="al_tit">노래제목</span>
+                    <p class="al_desc">앨범 설명글</p>
+                  </div>
+                </div>
+              </div>
+        </article>
         <!-- //lastest 파트 -->
 
         <!-- artist 파트 -->
@@ -98,12 +163,13 @@
 
     <!-- script 선언 -->
     <script>
-      // slick slider
+      // slick slider (.da_music여기에 너비 지정 x => .slick 알아서 잡음)
       $(".da_music").slick({
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
+        arrows: false,
       });
     </script>
   </body>
