@@ -16,6 +16,11 @@ h2{
     color: red;
     margin: 10px 0;
 }
+.all_icon{
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
 
 /* header */
 #header .logo{
@@ -43,6 +48,8 @@ h2{
 }
 
 /* main */
+
+/* daily */
 .daily{
     margin-top: 20px;
     padding: 20px 0;
@@ -55,3 +62,65 @@ h2{
 .daily .d_img:last-child{
     margin-right: 0;
 }
+
+/* lastest */
+.lastest{
+    margin-top: 20px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.latest .al_img{
+    float: left;
+    width: 33%;
+    margin-right: 1%;
+    border-radius: 10px;
+}
+.latest .al_img:last-child{
+    margin-right: 0;
+}
+.latest .al_title .al_tit{
+    font-size: 14px;
+    color: blue;
+    line-height: 20px;
+    font-weight: 700;
+}
+.latest .al_title .al_desc{
+    font-size: 12px;
+    color: skyblue;
+    line-height: 20px;
+}
+
+/* 슬라이드 부분 */
+.slide-menu {
+    position: fixed;
+    top: 0;
+    right: -300px; /* 시작시 오른쪽에 숨겨진 상태로 설정 */
+    width: 300px;
+    height: 100vh;
+    background-color: #f1f1f1;
+    transition: right 0.3s ease;
+    z-index: 9999; /* 다른 요소 위에 표시되도록 설정 */
+  }
+  
+  .slide-menu.open {
+    right: 0; /* 메뉴가 오른쪽으로 나타나도록 설정 */
+  }
+  
+  .slide-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .slide-menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .slide-menu ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu {
+    cursor: pointer;
+  }
