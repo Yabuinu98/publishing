@@ -18,10 +18,13 @@ $(".da_music").slick({
 
  
 // 우측슬라이드 메뉴
-const menuIcon = document.querySelector('.menu');
-const slideMenu = document.querySelector('.slide-menu');
+$(document).ready(function() {
+  $('.menu').click(function() {
+    $('.slide-menu').toggleClass('open');
+  });
 
-menuIcon.addEventListener('click', function() {
-  slideMenu.classList.toggle('open');
+  $('.close-menu').click(function() {
+    $('.slide-menu').removeClass('open');
+  });
 });
 

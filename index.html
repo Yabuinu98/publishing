@@ -50,13 +50,16 @@
         </div>
       </div>
     </header>
-    <div id="slide-menu">
+    <div class="slide-menu">
+      <div class="close-menu">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Discover</a></li>
-        <li><a href="#">Browse</a></li>
-        <li><a href="#">Radio</a></li>
-        <li><a href="#">Playlists</a></li>
+        <li><a href="https://www.naver.com" target="_blank">팝</a></li>
+        <li><a href="#">록</a></li>
+        <li><a href="#">아이돌</a></li>
+        <li><a href="#">발라드</a></li>
+        <li><a href="#">일렉트로닉</a></li>
       </ul>
     </div>
     <!-- //상단메뉴 -->
@@ -69,7 +72,6 @@
           <div class="container">
             <div class="row">
               <h2>Daily Recommened</h2>
-
               <div class="da_music">
                 <div class="d_img">
                   <picture>
@@ -98,18 +100,20 @@
         <article class="latest">
           <div class="container">
             <div class="row">
-              <h2>Latest Album</h2>
-              <span class="all_icon">See All</span>
+              <div class="align">
+                <h2>Latest Album</h2>
+                <span>See All</span>
+              </div>
               <div class="al_music">
                 <div class="al_img">
                   <picture>
                     <img src="/img/latest_img01.jpg" alt="kale woker1" />
                   </picture>
-                <div class="al_title">
-                  <span class="al_tit">노래제목</span>
-                  <p class="al_desc">앨범 설명글</p>
+                  <div class="al_title">
+                    <span class="al_tit">노래제목</span>
+                    <p class="al_desc">앨범 설명글</p>
+                  </div>
                 </div>
-              </div>
 
                 <div class="al_img">
                   <picture>
@@ -161,17 +165,100 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
         </article>
         <!-- //lastest 파트 -->
 
         <!-- artist 파트 -->
-        <article class="artist"></article>
+        <article class="artist">
+          <div class="container">
+            <div class="row">
+              <div class="align">
+                <h2>Artist</h2>
+                <span>See All</span>
+              </div>
+              <div class="ar_wrap">
+                <div class="ar_img">
+                  <picture>
+                    <img src="./img/artist_img01.PNG" alt="artist_img01" />
+                  </picture>
+                </div>
+                <div class="ar_title">
+                  <span class="ar_tit">노래제목</span>
+                  <p class="ar_desc">가수이름</p>
+                </div>
+                <span class="ar_icon"
+                  ><i class="fa fa-ellipsis-v" aria-hidden="true"></i
+                ></span>
+              </div>
+              <div class="ar_wrap">
+                <div class="ar_img">
+                  <picture>
+                    <img src="./img/artist_img02.PNG" alt="artist_img02" />
+                  </picture>
+                </div>
+                <div class="ar_title">
+                  <span class="ar_tit">노래제목</span>
+                  <p class="ar_desc">가수이름</p>
+                </div>
+                <span class="ar_icon"
+                  ><i class="fa fa-ellipsis-v" aria-hidden="true"></i
+                ></span>
+              </div>
+              <div class="ar_wrap">
+                <div class="ar_img">
+                  <picture>
+                    <img src="./img/artist_img03.PNG" alt="artist_img03" />
+                  </picture>
+                </div>
+                <div class="ar_title">
+                  <span class="ar_tit">노래제목</span>
+                  <p class="ar_desc">가수이름</p>
+                </div>
+                <span class="ar_icon"
+                  ><i class="fa fa-ellipsis-v" aria-hidden="true"></i
+                ></span>
+              </div>
+              <div class="ar_wrap">
+                <div class="ar_img">
+                  <picture>
+                    <img src="./img/artist_img04.PNG" alt="artist_img04" />
+                  </picture>
+                </div>
+                <div class="ar_title">
+                  <span class="ar_tit">노래제목</span>
+                  <p class="ar_desc">가수이름</p>
+                </div>
+                <span class="ar_icon"
+                  ><i class="fa fa-ellipsis-v" aria-hidden="true"></i
+                ></span>
+              </div>
+              <div class="ar_wrap">
+                <div class="ar_img">
+                  <picture>
+                    <img src="./img/artist_img05.jpg" alt="artist_img05" />
+                  </picture>
+                </div>
+                <div class="ar_title">
+                  <span class="ar_tit">노래제목</span>
+                  <p class="ar_desc">가수이름</p>
+                </div>
+                <span class="ar_icon"
+                  ><i class="fa fa-ellipsis-v" aria-hidden="true"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </article>
         <!-- //artist 파트 -->
+
+        <!-- mymusic 파트 -->
+        <!-- //mymusic 파트 -->
       </section>
     </main>
     <!-- //중단메뉴 -->
 
     <script src="/js/script.js"></script>
-    
   </body>
 </html>
