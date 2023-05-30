@@ -181,3 +181,30 @@ h2{
     align-items: center;
     color: aqua;
 }
+
+/* mymusic */
+.mymusic{
+    margin-top: 20px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.mymusic .my_img{
+    float: left;
+    width: 33%;
+    margin-right: 1%;
+    border-radius: 10px;
+}
+.mymusic .my_img:last-child{
+    margin-right: 0;
+}
+.mymusic .my_title .my_tit{
+    font-size: 14px;
+    color: blue;
+    line-height: 20px;
+    font-weight: 700;
+}
+.mymusic .my_title .my_desc{
+    font-size: 12px;
+    color: skyblue;
+    line-height: 20px;
+}
