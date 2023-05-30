@@ -223,8 +223,8 @@ h2{
     bottom: 50px;
 }
 .play .play_txt{
-    width: 130px;
-    padding: 20px;
+    width: 30%;
+    padding-left: 5%;
 }
 .play .play_txt h3{
     font-size: 16px;
@@ -235,10 +235,14 @@ h2{
     color: rgb(73, 73, 73);
 }
 .flex_con{
-    width: 60%;
+    width: 40%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.play .list_button{
+    width: 30%;
+    margin-right: -10%;
 }
 
 /* 하단 nav */
